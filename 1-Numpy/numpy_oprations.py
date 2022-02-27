@@ -34,3 +34,14 @@ arr_sub2 = np.subtract(numpy_2d_array1, numpy_2d_array2)
 
 arr_sum = np.sum(numpy_2d_array1)
 
+# Brocasting of array
+# boradcasting the means performing the opration make the same size array and matrix
+
+
+brod_add = numpy_2d_array1 +3 
+
+numpy_array3 = np.array([1,2])
+
+broad_add = numpy_2d_array1 + numpy_array3
+
+
