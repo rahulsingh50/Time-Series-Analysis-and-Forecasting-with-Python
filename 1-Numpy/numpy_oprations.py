@@ -1,6 +1,6 @@
 '''
 
-This is Numpy code 
+Numpy code 
 '''
 
 import numpy as np
@@ -18,3 +18,19 @@ matrix_mul = numpy_2d_array1@numpy_2d_array1
 
 mtx_mul = np.dot(numpy_2d_array1,numpy_2d_array2)
 element_arr_mul2 = np.multiply(numpy_2d_array1,numpy_2d_array2)
+
+
+# Array and Matrix Subtraction and Addition
+
+arr_add1 = numpy_2d_array1 + numpy_2d_array2
+arr_sub1 = numpy_2d_array1 - numpy_2d_array2
+
+# using class method
+
+arr_add2 = np.add(numpy_2d_array1, numpy_2d_array2)
+arr_sub2 = np.subtract(numpy_2d_array1, numpy_2d_array2)
+
+# adding Element of array
+
+arr_sum = np.sum(numpy_2d_array1)
+
