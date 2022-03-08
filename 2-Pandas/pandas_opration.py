@@ -84,6 +84,30 @@ df.iloc[0:2,1:3]
 df.iloc[:,0]
 
 
+# various operation in pandas
+
+# replacing data in whole data set
+
+df.replace(9, 1)
+# bulck replace 
+df.replace({9:1,7:2})
+
+# sorting data
+
+# sorting by value or paticular column
+df.sort_values('Grade1',ascending=False)
+df.sort_index(axis= 1,ascending= True)
+df.sort_index(axis= 0,ascending= True)
+
+# head
+df.head(3)
+df.tail(2)
+
+# read data
+df1 = pd.read_csv("Data-Set.csv")
+
+
+
 
 
 
